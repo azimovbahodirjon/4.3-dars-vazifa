@@ -453,10 +453,12 @@ body {
     .list-1__p {}
     .list-1__texts {}
     .box__3 {
-        display: flex;
-        align-items: center;
+        display: flex !important;
+        align-items: center !important;
     }
-    .blog-3__list-1 {}
+    .blog-1__list-1 {}
+    .blog-2__list-2 {}
+    .blog-3__list-3 {}
     .box__img {
         margin-left: -50px;
     }
@@ -466,8 +468,6 @@ body {
     .box__text {
         margin-left: -50px;
     }
-    .blog-3__list-2 {}
-    .blog-3__list-3 {}
     .list-2 {
         margin-top: -650px;
         margin-left: -250px;
